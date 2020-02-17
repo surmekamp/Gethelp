@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnsparepartsnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f7f9ef"
+        android:gravity="center"
+        android:text="@string/phonenumber_spareparts"
+        android:textColor="@android:color/black"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/Spareparts"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/FAQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#7C7C7C"
+        android:gravity="center"
+        android:text="@string/faq"
+        android:textColor="#f7f9ef "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/FAQ1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f7f9ef"
+        android:gravity="center"
+        android:text="@string/faq_question1"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/FAQ"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/FAQ2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#f7f9ef"
+        android:gravity="center"
+        android:text="@string/faq_question2"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/FAQ1"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/FAQ3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#f7f9ef"
+        android:gravity="center"
+        android:text="@string/faq_question3"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/FAQ2"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/FAQ4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#f7f9ef"
+        android:gravity="center"
+        android:text="@string/faq_question4"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/FAQ3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/Spareparts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#7C7C7C"
+        android:gravity="center"
+        android:text="@string/spare_parts"
+        android:textColor="#f7f9ef "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/FAQ4"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <TextView
+        android:id="@+id/service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#7C7C7C"
+        android:gravity="center"
+        android:text="@string/service"
+        android:textColor="#f7f9ef "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/btnsparepartsnumber"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnservicenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f7f9ef"
+        android:gravity="center"
+        android:text="@string/phonenumber_service"
+        android:textColor="@android:color/black"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/service"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/serviceEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f7f9ef"
+        android:gravity="center"
+        android:text="@string/mailaddress_service"
+        android:textColor="@android:color/black"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/btnservicenumber"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <TextView
+        android:id="@+id/manuals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#7C7C7C"
+        android:gravity="center"
+        android:text="@string/manuals"
+        android:textColor="#f7f9ef "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/serviceEmail"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnmanual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f7f9ef"
+        android:gravity="center"
+        android:text="@string/openmanuals"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/manuals"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

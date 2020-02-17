@@ -1,0 +1,36 @@
+<resources>
+    #titles Get Help
+    <string name="app_name">roboter</string>
+
+    <string name="service">Service</string>
+    <string name="local_supplier">Local Supplier</string>
+    <string name="manuals">Manuals</string>
+
+    #FAQ
+    <string name="faq">FAQ</string>
+    <string name="faq_question1">Question 1</string>
+    <string name="faq_question2">Question 2</string>
+    <string name="faq_question3">Question 3</string>
+    <string name="faq_question4">Question 4</string>
+
+    #Phonenumber Spare parts
+    <string name="spare_parts">Spare parts</string>
+    <string name="phonenumber_spareparts">+49 4447 801 373</string>
+
+    #information Service
+    <string name="phonenumber_service">+49 4447 801 4500</string>
+    <string name="mailaddress_service">customerhelpdesk@bigdutchman.de</string>
+
+    #manuals
+
+    <string name="openmanuals">Open BD-Robot-Manual</string>
+
+
+
+
+
+
+
+
+
+</resources>
